@@ -4,22 +4,24 @@ using Microsoft.Xna.Framework.Audio;
 using Infrastructure;
 using Infrastructure.Managers;
 using Infrastructure.ObjectModel.Screens;
+using Invaders;
+using Invaders.Managers;
 using Invaders.Screens;
 using Invaders.Tetris;
 using Invaders.IcyTower;
 using Invaders.Snake;
 using Invaders.PacMan;
 
-namespace Invaders.Managers
+namespace ArcadeHub.Managers
 {
-    public class InvadersManager : BaseGame
+    public class ArcadeManager : BaseGame
     {
         private readonly ScoresDatabase r_ScoresDatabase;
         private const string k_SpaceBGTexture           = @"Sprites\BG_Space01_1024x768";
         private const string k_DashboardBGTexture        = @"Screens\BG_Dashboard";
         private const string k_BGSoundAssert             = @"Sounds\BGMusic";
         private const string k_MenuTransitionSoundAssert = @"Sounds\MenuMove";
-        private const string k_DashboardTitle            = "Game Dashboard";
+        private const string k_DashboardTitle            = "Arcade Hub Dashboard";
         private const string k_SpaceInvadersTitle        = "Space Invaders";
         private const string k_TetrisTitle               = "Tetris";
         private const string k_IcyTowerTitle             = "Icy Tower";
@@ -37,7 +39,7 @@ namespace Invaders.Managers
         private NameEntryScreen m_NameEntryScreen;
         private eNumberOfPlayers m_NumberOfPlayers = eNumberOfPlayers.OnePlayer;
 
-        public InvadersManager()
+        public ArcadeManager()
         {
             m_CurrentLevel = 0;
 
