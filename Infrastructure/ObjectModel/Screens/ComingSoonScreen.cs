@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
 using Infrastructure.ObjectModel.Screens;
 
-namespace Invaders.Screens
+namespace Infrastructure.ObjectModel.Screens
 {
     public class ComingSoonScreen : MenuScreen
     {

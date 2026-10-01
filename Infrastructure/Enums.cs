@@ -1,4 +1,4 @@
-﻿namespace Infrastructure
+namespace Infrastructure
 {
     public class Enums
     {
@@ -12,6 +12,12 @@
         {
             RectangleBased,
             PixelsBased
+        }
+
+        public enum eNumberOfPlayers
+        {
+            OnePlayer = 1,
+            TwoPlayers = 2
         }
     }
 }

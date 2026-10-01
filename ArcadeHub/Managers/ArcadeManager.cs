@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Audio;
 using Infrastructure;
 using Infrastructure.Managers;
 using Infrastructure.ObjectModel.Screens;
+using static Infrastructure.Enums;
 using Invaders;
 using Invaders.Managers;
 using Invaders.Screens;

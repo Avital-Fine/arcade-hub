@@ -1,4 +1,7 @@
-﻿namespace Invaders
+global using static Infrastructure.Enums;
+using Infrastructure;
+
+namespace Invaders
 {
     public enum eLevel
     {
@@ -25,11 +28,5 @@
     {
         Blue,
         Green
-    }
-
-    public enum eNumberOfPlayers
-    {
-        OnePlayer = 1,
-        TwoPlayers = 2
     }
 }

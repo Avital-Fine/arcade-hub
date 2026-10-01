@@ -5,7 +5,9 @@ using Microsoft.Xna.Framework.Graphics;
 using Infrastructure.ObjectModel;
 using Infrastructure.ObjectModel.Screens;
 
-namespace Invaders.Screens
+using static Infrastructure.Enums;
+
+namespace Infrastructure.ObjectModel.Screens
 {
     public class NameEntryScreen : GameScreen
     {

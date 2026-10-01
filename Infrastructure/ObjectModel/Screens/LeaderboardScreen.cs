@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Input;
 using Infrastructure.Managers;
 using Infrastructure.ObjectModel.Screens;
 
-namespace Invaders.Screens
+namespace Infrastructure.ObjectModel.Screens
 {
     public class LeaderboardScreen : GameScreen
     {
